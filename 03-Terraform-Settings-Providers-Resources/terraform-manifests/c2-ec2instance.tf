@@ -6,3 +6,4 @@ resource "aws_instance" "myec2_amit" {
   tags = {
     Name = "my_ec2"
 }
+}
