@@ -5,5 +5,5 @@ resource "aws_instance" "myec2_amit" {
   user_data = file("${path.module}/app1-install.sh")
   tags = {
     Name = "my_ec2"
-}
+  }
 }
